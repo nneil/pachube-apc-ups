@@ -1,3 +1,8 @@
+You need to install the APC monitoring package for your distribution. On
+ubuntu use:
+
+apt-get install apcupsd
+
 Put your api key and feed id into two files called
 
 apikey
@@ -6,3 +11,5 @@ feedid
 (Or you can put them into the variable assignments in the program).
 
 Run apc.pl from cron every 10 minutes or so to update your feed.
+
+
